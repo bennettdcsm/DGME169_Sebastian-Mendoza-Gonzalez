@@ -8,18 +8,21 @@
   <title>Services</title>
 </head>
 <body>
-    <header>
+  <header>
+    <div class="header-content">
+      
       <div class="top-header">
-        <p>Senior for Senior</p>
+        <p><a href="index.html">Senior for Senior</a></p>
         <ul class="navigation">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="signup.html">Sign Up</a></li>
+          <li><a href="dogs.html">Dogs</a></li>
+          <li><a href="contact.html" class="contact-button">Contact</a></li>
         </ul>
       </div>
-    </header>
+    </div>
+  </header>
   <main>
 
     <div class="services-main-box">
@@ -60,46 +63,60 @@
 
     <div class="process-box">
       <h2>Step by Step Process</h2>
+    
+      <div class="process-container">
 
-        <div class="process-flex"></div>
-
+        <div class="process-flex">
           <div class="process-table">
             <h3>1. Check our Catalog</h3>
-            <p>We offer the best catalog of Senior Dogs currently living on shelters throughout the Bay Area waiting to be adopted by Senior citizens. </p>
+            <p>We offer the best catalog of Senior Dogs currently living on shelters throughout the Bay Area waiting to be adopted by Senior citizens.</p>
           </div>
-
-          <div class="process-table">
+    
+         <div class="process-table">
             <h3>2. Fill Out the Documentation</h3>
             <p>After you choose a dog, you need to fill up the documentation, so we can learn more about you, your needs and your requirements.</p>
           </div>
-
+    
           <div class="process-table">
             <h3>3. Meet your Senior Dog</h3>
             <p>After we process the documents, we will schedule a meeting between you and your dog, so you can meet each other.</p>
           </div>
-        </div>
-        
-        <div class="buttons-flex-container">
-          <button class="see-all-dogs">See All Dogs</button>
-          <button class="more-information">More Information</button>
-        </div>
+      </div>
+    
+      <div class="process-buttons">
+        <button class="see-all-dogs" onclick="window.location.href='dogs.html'">See All Dogs</button>
+        <button class="more-information" onclick="window.location.href='contact.html'">More Information</button>
+      </div>
+  
     </div>
+    
+    
   </main>
 
   <footer>
     <div class="top-footer">
       <div class="footer-container">
         <h2>Ready to Give a Senior Dog Another Chance?</h2>
-        <button class="see-all-dogs">See All Dogs</button>
+        <button class="see-all-dogs" onclick="window.location.href='dogs.html'">See All Dogs</button>
+
       </div>
     </div>
   
     <div class="bottom-footer">
       <div class="footer-container">
         <small>&copy; Senior for Senior. All Rights Reserved</small>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/" target="_blank" class="social-link">
+            <img src="images/instagram_white.png" alt="instagram logo">
+          </a>
+          <a href="https://www.facebook.com/" target="_blank" class="social-link">
+            <img src="images/facebook_white.png" alt="facebook logo">
+          </a>
+        </div>
       </div>
     </div>
-  </footer>
+    
+  </footer> 
 
 </body>
 </html>
